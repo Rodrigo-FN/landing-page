@@ -1,0 +1,180 @@
+@media (min-width: 992px) { 
+    
+    .cabecalho {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+
+    .cabecalho__titulo {
+        display: block;
+        font-weight: 900;
+        font-size: 70PX;
+        color: rgb(139, 69, 19);
+    }
+
+    .cabecalho__img {
+        margin-left: 50px;
+    }
+
+    .cabecalho__lista {
+        display: flex;
+        gap: 1rem;
+        margin-right: 50px;
+    }
+    
+
+    /* Container Comeco*/
+
+    .container__comeco {
+        height: 628px;
+        background: url('../img/img-comeco.svg') no-repeat center center;
+        background-size: cover;
+    }
+
+    .comeco__texto {
+        font-size: 60px;
+    }
+
+    /*Container Quem somos*/
+
+    .container__quem_somos {
+        width: 702px;
+        height: 402px;
+        margin: auto;
+
+    }
+
+    .titulo {
+        font-weight: 600;
+        font-size: 45px;
+    }
+
+    /*Container Ladrilhos */
+
+
+    .container__ladrilhos div {
+        float: left;
+    }
+
+
+   .ladrilho__1 {
+        background: url("../img/xicara-1-descktop.svg")  no-repeat center;
+        background-size: cover;
+        height: 600px;
+        width: 50%;
+
+    }
+
+    .ladrilho__2 {
+        background: url('../img/grao-cae-desktop.svg') no-repeat center;
+        background-size: cover;
+        height: 300px;
+        width: 25%;
+
+    }
+
+    .ladrilho__3 {
+        background: url('../img/xicar-2-desktop.svg') no-repeat center;
+        background-size: cover;
+        height: 300px;
+        width: 25%;
+    }
+
+    .ladrilho__4 {
+        background: url('../img/xicara-4-descktop.svg') no-repeat center;
+        background-size: cover;
+        height: 300px;
+        width: 50%;
+    }
+
+    /* Container Onde Estamos*/
+
+    .endereco {
+        width: 478px;
+        height: 70px;
+        margin: auto;
+        padding: 0 5rem;
+
+        font-weight: 300;
+        font-size: 28px;
+        line-height: 2.3rem;
+
+    }
+
+    .onde__estamos_imagem {
+        margin-top: 6rem;
+    }
+
+    /*Container Contato*/
+
+    .container__contato {
+        background: url('../img/cafe-contato.svg') no-repeat center center;
+        background-size: cover;
+    }
+
+    .contato {
+        margin-left: 40%;
+        height: 200px;
+    }
+
+    .titulo__contato {
+        font-weight: 600;
+        font-size: 45px;
+    }
+
+    .contato__texto {
+        font-weight: 600;
+        font-size: 25px;
+    }
+
+    .contato__horario {
+        font-size: 25px;
+    }
+
+
+     /*Container Rodape*/
+
+     .rodape {
+        position: relative;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        height: 211px;
+        background: url('../img/cafe-footer.svg') no-repeat center center;
+        background-size: cover;
+
+     }
+
+     .rodape__img {
+        position: absolute;
+        left: 2.08%;
+        right: 92.01%;
+        top: 16.59%;
+        bottom: 43.13%;
+        margin: 1rem;
+        height: 85px;
+
+     }
+
+     .rodape__lista {
+        position: absolute;
+        right: 0;
+        display: flex;
+     }
+
+     .container__social {
+        position: absolute;
+        right: 75px;
+        bottom: 15px;
+     }
+
+     .rodape__copi {
+        position: absolute;
+        left: 2.08%;
+        right: 89.86%;
+        top: 75.83%;
+        bottom: 15.17%;
+     }
+}

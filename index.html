@@ -4,17 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="HTML, CSS, JavaScript, café, coffee">
+    <meta name="description" content="Cafeteira Espresso para Cápsulas no Mercafé, a Loja Oficial de 3 Corações. Compre com Frete Grátis e parcele em até 6x sem juros. Em até 6x s/ Juros. Frete Grátis acima R$149.">
+    <meta name="author" content="Rodrigo Faria">
+
     <link rel="stylesheet" href="./estilos/reset.css">
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="./estilos/media-queries.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@300;400;600&display=swap" rel="stylesheet">
+
     <title>Mais Café</title>
 </head>
 <body>
     <header class="cabecalho">
         <img src="./img/Designsemnome(1 2.svg" alt="Logo do Mais Café" class="cabecalho__img">
+
+        <h1 class="cabecalho__titulo">Mais Café</h1>
 
             <ul class="cabecalho__lista">
                 <li class="cabecalho__item">
@@ -60,13 +69,14 @@
     </section>
 
     <section class=" container__contato">
-        <h2 class="titulo__contato">Contato</h2>
-
-        <address>
-            <p class="contato__texto">Telefone: (51) 9-9999-9999</p>
-            <p class="contato__texto">Email: contato@codecafe.com</p>
-        </address>
-        <p class="contato__horario">Horário de atendimento: seg a sex - 9h até 18h</p>
+        <div class="contato">
+            <h2 class="titulo__contato">Contato</h2>
+            <address>
+                <p class="contato__texto">Telefone: (51) 9-9999-9999</p>
+                <p class="contato__texto">Email: contato@codecafe.com</p>
+            </address>
+            <p class="contato__horario">Horário de atendimento: seg a sex - 9h até 18h</p>
+        </div>
     </section>
 </body>
 
@@ -87,8 +97,10 @@
                 </li>
             </ul>
 
-            <a href="#"><img src="./img/face 2.svg" alt="Facebook" class="social"></a>
-            <a href="https://twitter.com/rodrygo1911" target="_blank"><img src="./img/insta 2.svg" alt="Instagran" class="social"></a>
+            <div class="container__social">
+                <a href="#"><img src="./img/face 2.svg" alt="Facebook" class="social"></a>
+                <a href="https://www.instagram.com/rodrigo.faria19/" target="_blank"><img src="./img/insta 2.svg" alt="Instagran" class="social"></a>
+            </div>
             
             
             <p class="rodape__copi">&copy; 2021 Code Café</p>

@@ -1,6 +1,5 @@
 @charset "UTF-8";
 
-
 .cabecalho {
     display: flex;
     flex-direction: column;
@@ -37,7 +36,7 @@ padding: 1rem;
     text-decoration: none;
     color: black;
 }
-
+/* Container Começo*/
 .container {
     margin-bottom: 6rem;
     text-align: center;
@@ -72,6 +71,8 @@ padding: 1rem;
 }
 
 .quem__somos_texto {
+    font-weight: 300;
+    font-size: 20px;
     text-align: center;
     padding: 0 1rem;
 }
@@ -124,6 +125,15 @@ padding: 1rem;
     background: #D3AE71;
     color: white;
     
+}
+
+.contato {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 527px;
+    text-align: center;
+    font-size: 20px;
 }
 
 .titulo__contato {
@@ -181,3 +191,11 @@ padding: 1rem;
     padding: 0 .5rem;
     margin: 3rem 0;
 }
+
+
+/*Espaço Media Query*/
+
+.cabecalho__titulo {
+    display: none;
+}
+
