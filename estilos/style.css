@@ -41,7 +41,8 @@ padding: 1rem;
     align-items: center;
     width: 100%;
     height: 270px;
-    background: transparent url('../img/Painél.svg');
+    background: transparent url('../img/Painél.svg') no-repeat;
+    background-size: cover;
 }
 
 .comeco__texto {
