@@ -162,6 +162,7 @@
         position: absolute;
         right: 0;
         display: flex;
+        gap: 20px;
      }
 
      .container__social {
